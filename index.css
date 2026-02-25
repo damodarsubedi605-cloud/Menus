@@ -1,0 +1,86 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#5905e9ca;
+}
+
+.header{
+background:#9c9e9496;
+color:rgba(240, 220, 5, 0.681);
+text-align:center;
+padding:20px;
+font-size:24px;
+}
+
+.container{
+padding:20px;
+}
+
+.category{
+font-size:22px;
+margin-top:20px;
+color:#240303;
+}
+
+.item{
+background:white;
+padding:15px;
+margin-top:10px;
+border-radius:10px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+button{
+background:#190202;
+color:white;
+border:none;
+padding:6px 10px;
+border-radius:5px;
+cursor:pointer;
+margin-left:5px;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+.cart{
+background:white;
+margin:20px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+input{
+width:100%;
+padding:10px;
+margin-top:10px;
+border-radius:5px;
+border:1px solid #000000;
+}
+
+.place-btn{
+background:#00ff37;
+width:100%;
+margin-top:10px;
+}
+
+.cancel-btn{
+background:red;
+width:100%;
+margin-top:10px;
+}
+
+.footer{
+text-align:center;
+padding:20px;
+color:rgb(18, 2, 2);
+}
+
+ul{
+padding-left:15px;
+}
